@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxanium&display=swap');
 
+:root {
+    --body-font: "Montserrat", system-ui, sans-serif;
+}
+
 body {
     display: flex;
     margin: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--body-font);
 }
 
 .nature-background {
@@ -81,9 +85,22 @@ body {
     width: clamp(10rem, 50%, 15rem);
     height: 2rem;
     font-size: 1rem;
+    font-family: var(--body-font);
 }
 
 .input-field label {
     letter-spacing: 0.1rem;
     font-weight: 600;
+}
+
+#create-account-button {
+    color: rgb(240, 240, 240);
+    background-color: #283747;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 32px;
+    font-family: var(--body-font);
 }
