@@ -79,6 +79,11 @@ body {
 
 .input-field input {
     width: clamp(10rem, 50%, 15rem);
-    height: 1.2rem;
+    height: 2rem;
     font-size: 1rem;
+}
+
+.input-field label {
+    letter-spacing: 0.1rem;
+    font-weight: 600;
 }
