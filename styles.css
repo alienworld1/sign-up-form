@@ -53,21 +53,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
+    margin: 0 16px;
+    gap: 48px
 }
 
 .header-text {
     color: #283747;
     font-weight: 800;
-    text-align: center;
     font-size: 1.5rem;
 }
 
 .sign-up-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .input-field {
