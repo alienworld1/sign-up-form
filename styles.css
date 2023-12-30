@@ -7,7 +7,7 @@ body {
 }
 
 .nature-background {
-    width: clamp(450px, 40%, 600px);
+    width: clamp(600px, 40%, 700px);
     height: 100vh;
     position: relative;
     display: flex;
@@ -47,4 +47,19 @@ body {
 .nature-background a,
 .nature-background a:visited {
     color: white;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-text {
+    color: #283747;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
 }
