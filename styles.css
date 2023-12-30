@@ -88,6 +88,16 @@ body {
     font-family: var(--body-font);
 }
 
+.input-field input:focus {
+    border-color: #283747;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field input:valid {
+    border-color: #596D48;
+}
+
 .input-field label {
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -104,3 +114,4 @@ body {
     margin-top: 32px;
     font-family: var(--body-font);
 }
+
