@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@500&family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxanium&display=swap');
 
 body {
     display: flex;
     margin: 0;
     justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
 }
 
 .nature-background {
@@ -18,18 +19,33 @@ body {
 .nature-background img {
     width: 100%;
     height: 100%;
-    position: relative;
+}
+
+.nature-background .logo,
+.nature-background .caption {
+    position: absolute;
+    background: rgba(12, 12, 12, 0.5);
+    color: rgb(240, 240, 240);
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .nature-background .logo {
-    position: absolute;
     top: 20%;
-    font-family: "Oxanium", Helvetica, sans-serif;
+    font-family: "Oxanium", Helvetica, monospace;
     font-size: 3rem;
-    text-align: center;
-    background: rgba(12, 12, 12, 0.5);
-    color: rgb(240, 240, 240);
     padding: 32px;
-    box-sizing: border-box;
-    width: 100%;
+    letter-spacing: 0.75rem;
+}
+
+.nature-background .caption {
+    bottom: 1%;
+    padding: 0.5rem;
+}
+
+.nature-background a,
+.nature-background a:visited {
+    color: white;
 }
